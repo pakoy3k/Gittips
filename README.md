@@ -1,9 +1,44 @@
-# basicGit
+# GitLand
 Comando básicos que considero todo desarrollador debería conocer/dominar
-Estos son algunos links recomendados para conocer los comandos básicos para trabajar con GIT y no caer en la frustración:
+
+
+## Copias instantáneas, no diferencias
+
+Otros CVS tradicionales llevan un historial de los cambios de los archivos.
+
+![image_cvs_tradicional](https://git-scm.com/book/en/v2/images/deltas.png)
+
+
+Git maneja estos como un conjunto de copias instantaneas del sistema de archivos.
+
+![image_cvs_git](https://git-scm.com/book/en/v2/images/snapshots.png)
+
+
+
+## Tres Estados
+
+Git tiene tres estados principales en los que se pueden encontrar tus archivos: confirmado (committed), modificado (modified), y preparado (staged). 
+
+* Confirmado: significa que los datos están almacenados de manera segura en tu base de datos local. 
+
+* Modificado: significa que has modificado el archivo pero todavía no lo has confirmado a tu base de datos. 
+
+* Preparado: significa que has marcado un archivo modificado en su versión actual para que vaya en tu próxima confirmación.
+
+![image 3 states](https://i.stack.imgur.com/qfins.png)
+
+Esto nos lleva a las tres secciones principales de un proyecto de Git: El directorio de Git (Git directory), el directorio de trabajo (working directory), y el área de preparación (staging area).
+
+![image_proyect_states](https://git-scm.com/book/en/v2/images/areas.png)
 
 ![image git](https://i.stack.imgur.com/MgaV9.png)
 
+
+
+
+Estos son algunos links recomendados para conocer los comandos básicos para trabajar con GIT y no caer en la frustración:
+
+## Documentacion oficial
 
 [A3.1 Appendix B: Comandos de Git - Configuración](https://git-scm.com/book/es/v2/Appendix-B%3A-Comandos-de-Git-Configuración)
 

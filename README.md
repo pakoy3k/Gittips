@@ -62,3 +62,11 @@ Extra para crear tus Readme.md
 [Ramas y resolución de conflictos en git](https://styde.net/ramas-y-resolucion-de-conflictos-en-git/)
 
 [Como resolver conflictos en Git y otros errores al subir un cambio](https://www.codigonaranja.com/2017/como-resolver-conflictos-en-git-y-otros-errores-a-subir-un-cambio)
+
+
+
+## TOOLS
+
+[RIPGREP](https://github.com/BurntSushi/ripgrep)
+
+[GOURCE](https://gource.io/)

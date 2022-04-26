@@ -23,3 +23,12 @@
 `Reflogs track when Git refs were updated in the local repository, show all HEAD reflog`
 
 ![gif_reflog](https://res.cloudinary.com/practicaldev/image/fetch/s--AS0ya8UC--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/rixan4h4z8y94eq89som.png)
+
+
+>git blame [file]
+
+`display of author metadata attached to specific committed lines in a file`
+
+>git grep 
+
+`Print lines matching a pattern`

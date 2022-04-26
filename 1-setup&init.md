@@ -1,20 +1,39 @@
->git config --global user.name “[firstname lastname]”
+1. >git config --global user.name “[firstname lastname]”
 
-`set a name that is identifiable for credit when review version history`
+    `set a name that is identifiable for credit when review version history` 
 
->git config --global user.email “[valid-email]”
+<br/>
+<br/>
 
-`set an email address that will be associated with each history marker`
+2. >git config --global user.email “[valid-email]”
 
->git config --global color.ui auto
+    `set an email address that will be associated with each history marker`
 
-`set automatic command line coloring for Git for easy reviewing`
+<br/>
+<br/>
 
+3. >git config --global color.ui auto
 
->git init 
+    `set automatic command line coloring for Git for easy reviewing`
 
-`initialize an existing directory as a Git repository`
+<br/>
+<br/>
 
->git clone [url]
+4. >git init 
 
-`retrieve an entire repository from a hosted location via URL`
+    `initialize an existing directory as a Git repository`
+
+<br/>
+<br/>
+
+5. >git clone [url]
+
+    `retrieve an entire repository from a hosted location via URL`
+
+*       git clone <url_of_the_repo> <path_of_the_empty_directory>
+
+<br/>
+
+6. >vim .git/config
+
+    `The Git configuration file contains a number of variables that affect the Git commands' behavior.`

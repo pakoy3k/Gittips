@@ -18,3 +18,7 @@
 
 `show any object in Git in human-readable format`
 
+>git tag -a [tag_name] -m 'tag message'
+>>git tag -a v0.0.1-⍺ -m 'Published v0.0.1-⍺, need to stay awake to fix any bug 😭'
+
+`creating a tag`

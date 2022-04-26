@@ -1,23 +1,80 @@
->git status
+1.  >git status
 
-`show modified files in working directory, staged for your next commit`
+    `show modified files in working directory, staged for your next commit`
 
->git add [file]
+<br/>
+<br/>
 
-`add a file as it looks now to your next commit (stage)`
+2. >git add [file]
 
->git reset [file]
+    `add a file as it looks now to your next commit (stage)`
 
-`unstage a file while retaining the changes in working directory`
+<br/>
+<br/>
 
->git diff
+3. >git reset [file]
 
-`diff of what is changed but not staged`
+    `unstage a file while retaining the changes in working directory`
 
->git diff --staged
+    <br> 
 
-`diff of what is staged but not yet committed`
+    * ## In this process the changes made to the files after last commit are not discarded, just the commit is removed from working flow
+    
+    <br>
 
->git commit -m “[descriptive message]”
+    * >git reset --soft HEAD^
 
-`commit your staged content as a new commit snapshot`
+        `Moves the added files in last commit back to staged area`
+    
+    <br>
+
+    
+    * >git reset --soft HEAD^^
+
+
+        `Discards last two commits and HEAD points two commits back`
+    
+    <br>
+    
+    * >git reset --soft HEAD~n
+
+
+        `Discards last n commits and HEAD points n commits back`
+    
+    
+    <br>
+
+    * ## the changes made to the files in subsequent commits are lost
+
+    <br>
+
+    * >git reset --hard HEAD^ 
+
+        `Move back to one commit earlier, Discarding Your Last Push ( Emergency only)`
+
+<br/>
+<br/>
+
+4. >git diff
+
+    `diff of what is changed but not staged`
+
+<br/>
+<br/>
+
+5. >git diff --staged
+
+    `diff of what is staged but not yet committed`
+
+<br/>
+<br/>
+
+6. >git commit -m “[descriptive message]”
+
+    `commit your staged content as a new commit snapshot`
+    
+    <br>
+
+    * >git commit -a -m 'your commit message'
+    
+        `add & commit in a single command`

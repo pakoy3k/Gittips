@@ -26,4 +26,5 @@ echo $info
 url="https://api.telegram.org/bot32:ID_BOT/sendMessage"
 curl -s -X POST $url -d chat_id=ID_TELEGRAM_GROUP -d text="$info"
 echo $url
+
 ```

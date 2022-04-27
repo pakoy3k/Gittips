@@ -2,42 +2,51 @@
 
 ![img_stash_flow]()
 
->git stash
+1. >git stash
 
-`Save modified and staged changes`
+    `Save modified and staged changes`
+    <br><br>
+    
+    >>git stash -u
 
->>git stash -u
+    `-u option (or --include-untracked) tells git stash to also stash your untracked files`
+    <br><br>
+    
+    >>git stash save "text"
 
-`-u option (or --include-untracked) tells git stash to also stash your untracked files`
+    `add description to stash`
+    <br><br>
+    
+    >>git stash list
 
->>git stash save "text"
+    `list stack-order of stashed file changes`
+    <br><br>
+    
+    >>git stash pop
 
-`add description to stash`
+    `write working from top of stash stack`
+    <br><br>
+    
+    >>git stash drop
 
->git stash list
+    `discard the changes from top of stash stack`
+    <br><br>
+    
+    >>git stash apply
 
-`list stack-order of stashed file changes`
+    `reapply the changes to your working copy and keep them in your stash`
+    <br><br>
 
->git stash pop
+    >>git stash show | git stash show -p
 
-`write working from top of stash stack`
+    `view summary of a stash | view the full diff of a stash`
+    <br><br>
 
->git stash drop
+    >>git stash branch add-stylesheet stash@{1}
 
-`discard the changes from top of stash stack`
+    `create a branch from a stash`
+    <br><br>
 
->git stash apply
+    >>git stash clear
 
-`reapply the changes to your working copy and keep them in your stash`
-
->git stash show | git stash show -p
-
-`view summary of a stash | view the full diff of a stash`
-
->git stash branch add-stylesheet stash@{1}
-
-`create a branch from a stash`
-
->git stash clear
-
-`delete all stashes`
+        `delete all stashes`

@@ -67,3 +67,13 @@
 6. >git worktree
 
     `Manage multiple working trees attached to the same repository.`
+
+    <br/>
+
+    >>git worktree add [path_directory][branch_name]
+
+    `create path_directory and checkout branch_name into it`
+
+    >>git worktree list 
+
+    `list details of each worktree`

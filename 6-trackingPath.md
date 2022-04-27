@@ -1,13 +1,17 @@
->git rm [file]
+1. >git rm [file]
 
-`delete the file from project and stage the removal for commit`
+    `delete the file from project and stage the removal for commit`
 
->git mv [existing-path] [new-path]
+<br>
 
-`change an existing file path and stage the move`
+2. >git mv [existing-path] [new-path]
 
->git log --stat -M
+    `change an existing file path and stage the move`
 
-`show all commit logs with indication of any paths that moved`
+<br>
+
+3. >git log --stat -M
+
+    `show all commit logs with indication of any paths that moved`
 
 

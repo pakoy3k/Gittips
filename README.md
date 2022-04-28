@@ -5,14 +5,18 @@ Comando básicos que considero todo desarrollador debería conocer/dominar
 ## Copias instantáneas, no diferencias
 
 Otros CVS tradicionales llevan un historial de los cambios de los archivos.
+<div style="background-color:white">
 
-![image_cvs_tradicional](https://git-scm.com/book/en/v2/images/deltas.png)
+![image_cvs_tradicional](https://git-scm.com/book/en/v2/images/deltas.png)`#FF00FF`
 
+</div>
 
 Git maneja estos como un conjunto de copias instantaneas del sistema de archivos.
 
-![image_cvs_git](https://git-scm.com/book/en/v2/images/snapshots.png)
+<div style="background-color:white">
 
+![image_cvs_git](https://git-scm.com/book/en/v2/images/snapshots.png)
+</div>
 
 
 ## Tres Estados
@@ -29,11 +33,14 @@ Git tiene tres estados principales en los que se pueden encontrar tus archivos: 
 
 Esto nos lleva a las tres secciones principales de un proyecto de Git: El directorio de Git (Git directory), el directorio de trabajo (working directory), y el área de preparación (staging area).
 
+<div style="background-color:white">
+
 ![image_proyect_states](https://git-scm.com/book/en/v2/images/areas.png)
+
 
 ![image git](https://i.stack.imgur.com/MgaV9.png)
 
-
+</div>
 
 
 Estos son algunos links recomendados para conocer los comandos básicos para trabajar con GIT y no caer en la frustración:

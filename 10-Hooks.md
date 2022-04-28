@@ -1,13 +1,17 @@
 ### **Git hooks** are scripts that run automatically every time a particular event occurs in a Git repository. They let you customize Git’s internal behavior and trigger customizable actions at key points in the development life cycle.
 
+<div style="background-color:white">
+
 ![img_git_hooks](https://wac-cdn.atlassian.com/dam/jcr:ac22adee-d740-4216-a92a-33c14b5623e5/01.svg?cdnVersion=319)
+</div>
 
 Hooks reside in the .git/hooks directory of every Git repository. The built-in scripts are mostly shell and PERL scripts, but you can use any scripting language you like as long as it can be run as an executable. The shebang line (#!/bin/sh) in each script defines how your file should be interpreted. So, to use a different language, all you have to do is change it to the path of your interpreter.
 
 
+<div style="background-color:white">
 
 ![](https://user-images.githubusercontent.com/300046/38129418-3643b1dc-33bc-11e8-8d3d-37fd0ea72ade.jpg)
-
+</div>
  
 >mv .git/hooks/pre-commit.sample .git/hooks/pre-commit
 

@@ -1,6 +1,9 @@
 ### git stash temporarily shelves (or stashes) changes you've made to your working copy so you can work on something else, and then come back and re-apply them later on. Stashing is handy if you need to quickly switch context and work on something else, but you're mid-way through a code change and aren't quite ready to commit.
 
-![img_stash_flow]()
+<div style="background-color:white">
+
+![img_stash_flow](https://w3cschoool.com/public/file/GitHub/git-stash.png)
+</div>
 
 1. >git stash
 

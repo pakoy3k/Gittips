@@ -28,3 +28,10 @@
 5. >git grep 
 
 `Print lines matching a pattern`
+
+6.  >git fetch --all 
+    `First, run a fetch to update all origin/<branch> refs to latest` 
+    >git branch backup-master
+    `Backup your current branch`
+    >git reset --hard origin/master
+    `Force an overwrite of local files on a git pull`

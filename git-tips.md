@@ -1264,5 +1264,10 @@ git commit -m "submodule updated"
 git config --global core.autocrlf false
 ```
 
+## fatal: refusing to merge unrelated histories
+```sh
+git pull origin master --allow-unrelated-histories
+```
+
 <!-- Don’t remove or change the comment below – that can break automatic updates. More info at <http://npm.im/doxie.inject>. -->
 <!-- @doxie.inject end -->

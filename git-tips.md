@@ -178,6 +178,9 @@ P.S: All these commands are tested on `git version 2.7.4 (Apple Git-66)`.
 * [Use SSH instead of HTTPs for remotes](#use-ssh-instead-of-https-for-remotes)
 * [Update a submodule to the latest commit](#update-a-submodule-to-the-latest-commit)
 * [Prevent auto replacing LF with CRLF](#prevent-auto-replacing-lf-with-crlf)
+* [Create a branch from another branch](#create-a-branch-from-another-branch)
+* [Git Commit without Stage](#git-commit-without-stage)
+* [Remote GitLab branch removal commands](#remote-gitlab-branch-removal-commands)
 
 <!-- Don’t remove or change the comment below – that can break automatic updates. More info at <http://npm.im/doxie.inject>. -->
 <!-- @doxie.inject end toc -->
@@ -1267,6 +1270,24 @@ git config --global core.autocrlf false
 ## fatal: refusing to merge unrelated histories
 ```sh
 git pull origin master --allow-unrelated-histories
+```
+
+## Create a branch from another branch
+```sh
+git checkout -b myFeature dev
+```
+
+## Git Commit without Stage
+```sh
+git commit -a -m "Update somethings"
+```
+
+## Remote GitLab branch removal commands
+```sh
+git checkout master
+git branch -d fun_feature
+git push origin --delete fun_feature
+git branch --all
 ```
 
 <!-- Don’t remove or change the comment below – that can break automatic updates. More info at <http://npm.im/doxie.inject>. -->

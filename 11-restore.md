@@ -20,6 +20,7 @@ On the other hand, the restore command can also be used to discard local changes
 `Another interesting use case is to restore a specific historic revision of a file:`
 
 > git restore --source 7173808e index.html
+
 > git restore --source master~2 index.html
 
 The first example will restore the file as it was in commit #7173808e, while the second one will restore it as it was "two commits before the current tip of the master branch".
